@@ -9,7 +9,7 @@ let counter = 0;
 
 const cheer = () => {
 
-    if (counter > fullName.length) {
+    if (counter < fullName.length) {
         setTimeout(function() {
             console.log(`give me a ${fullName[counter]}`);
             counter++;
